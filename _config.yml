@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jet New"
+title                    : "ML does ML"
 title_separator          : "-"
-name                     : &name "Jet New"
-description              : &description "personal description"
-url                      : https://jetnew.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Ming Liang"
+description              : &description "NUS Mathematics + Computational Biology. Researching generative modelling and online learning and working at Collaborative, Learning, and Adaptive Robots (CLeAR) Lab at NUS"
+url                      : https://neoanarika.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "jetnew/jetnew.github.io"
+repository               : "Neoanarika/neoanarika.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 80
@@ -23,7 +23,7 @@ talkmap_link             : false #change to true to add link to talkmap on talks
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
-    shortname            : "jetnew"
+    shortname            : "ML"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : neoanarika
 facebook:
   username               :
   app_id                 :
@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Jet New"
+  name             : "Ming Liang Ang"
   avatar           : "profile.png"
-  bio              : "NUS Computer Science + University Scholars Programme. Researching causal reinforcement learning. Ex-intern at Grab, IMDA."
+  bio              : "NUS Mathematics + Computational Biology. Researching generative modelling and online learning and working at Collaborative, Learning, and Adaptive Robots (CLeAR) Lab at NUS"
   location         : "Singapore"
   employer         :
   pubmed           :  # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    :  # "http://yourfullgooglescholarurl.com"
-  email            :  "notesjet@gmail.com"
+  googlescholar    :  "https://scholar.google.com/citations?user=hepV8W8AAAAJ&hl=en"
+  email            :  "angmingliang@u.nus.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,24 +96,24 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "jetnew"
+  github           : "Ang Ming Liang"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "jetnew"
+  linkedin         : "Ang Ming Liang"
   orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "jetnew_sg"
+  twitter          : "neoanarika"
   vine             :
   weibo            :
   xing             :
-  youtube          : "jetnew"
+  youtube          : "Ming Liang"
   wikipedia        :
 
 
