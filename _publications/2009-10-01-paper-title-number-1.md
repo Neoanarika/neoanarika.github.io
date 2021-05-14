@@ -1,15 +1,24 @@
 ---
-title: "Paper Title Number 1"
+title: "Refining Deep Generative Models via Discriminator Gradient Flow"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
+permalink: https://openreview.net/forum?id=Zbc-ue9p_rE
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
+date: 2021-03-13
 venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+paperurl: 'https://arxiv.org/abs/2012.00780'
+BibTex: @article{DBLP:journals/corr/abs-2012-00780,
+  author    = {Abdul Fatir Ansari and
+               Ming Liang Ang and
+               Harold Soh},
+  title     = {Refining Deep Generative Models via Wasserstein Gradient Flows},
+  journal   = {CoRR},
+  volume    = {abs/2012.00780},
+  year      = {2020},
+  url       = {https://arxiv.org/abs/2012.00780},
+  archivePrefix = {arXiv},
+  eprint    = {2012.00780},
+  timestamp = {Fri, 04 Dec 2020 12:07:23 +0100},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2012-00780.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
 ---
-This paper is about the number 1. The number 2 is left for future work.
-
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
-
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
