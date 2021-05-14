@@ -7,23 +7,23 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "ML does ML"
+title                    : "Jet New"
 title_separator          : "-"
-name                     : &name "Ang Ming Liang"
+name                     : &name "Jet New"
 description              : &description "personal description"
-url                      : https://neoanarika.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://jetnew.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "Neoanarika/neoanarika.github.io"
+repository               : "jetnew/jetnew.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
-words_per_minute         : 160
-future                   : true
+words_per_minute         : 80
+future                   : false
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add link to talkmap on talks page
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
-    shortname            :
+    shortname            : "jetnew"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -40,7 +40,7 @@ staticman:
   path                   : "_data/comments/{options.slug}"
   requiredFields         : ['name', 'email', 'message']
   transforms:
-    email                : "angmingliang4017ic@gmail.com"
+    email                : "md5"
   generatedFields:
     date:
       type               : "date"
@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : neoanarika
+  username               : &twitter
 facebook:
   username               :
   app_id                 :
@@ -75,19 +75,19 @@ social:
 analytics:
   provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "UA-184803491-1"
 
 
 # Site Author
 author:
-  name             : "Ang Ming Liang"
+  name             : "Jet New"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "NUS Computer Science + University Scholars Programme. Researching causal reinforcement learning. Ex-intern at Grab, IMDA."
   location         : "Singapore"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "https://scholar.google.com/citations?user=hepV8W8AAAAJ&hl=en"
-  email            :
+  pubmed           :  # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  googlescholar    :  # "http://yourfullgooglescholarurl.com"
+  email            :  "notesjet@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,24 +96,24 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "jetnew"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  linkedin         : "jetnew"
+  orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "jetnew_sg"
   vine             :
   weibo            :
   xing             :
-  youtube          :
+  youtube          : "jetnew"
   wikipedia        :
 
 
