@@ -7,11 +7,6 @@ tags:
   - Modelling
 ---
 
-## Table of contents
-
-1. TOC
-{:toc}
-
 ## Basic problem setup
 
 Consider $N$ indistinguishable point particles, and denote by $x_i \in \mathbb{R}^n$ and $v_i ∈ \mathbb{R}^n$ the position and momentum of particle number $i$.
