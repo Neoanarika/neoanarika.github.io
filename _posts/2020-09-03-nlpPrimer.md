@@ -39,7 +39,8 @@ Summary: Primer on non-linear programming methods
 
   **Take note**: There are some NLP $\forall x\in S \quad \exists x^{'} \in S x^{'} < x$ this is an example of an unbouned minimisation problem a similar thing can be said for maximisation. For example the minimisation of the function $log(x)$ in the domain $x>0$ is an unbounded minisation problem. 
 
-  ## Examples of a Non-Linear Programs 
+  Examples of a Non-Linear Programs 
+  =================================
 
   - Portfolio Optimisation 
 
@@ -72,7 +73,7 @@ Summary: Primer on non-linear programming methods
     This shows the the optimisation of the quadratic form can be rewritten as an eigenvalue problem, which begs the next question how about the opposite direction are eigenvalue problems just optimisation problem in disguise ? 
 
   A Simple Solving NLP problems (Graphical Solution)
-  --------------------------------------------------
+  ===============
 
   > minimise $f(x) = (x_1-4)^2 + (x^2 - 6)^2$
   >
@@ -107,7 +108,7 @@ Summary: Primer on non-linear programming methods
   
 
   Not all fessible points are equal
-  ---------------------------------
+  ======
 
   We previously discussed about optimal solutions, these are example of global minimizers sometimes it is very diffcult to find these global minimizers because the search space is too big and thus simple methods like finding the graphical solution doesn't work. Hence, we are interested in local minimizers. 
 
@@ -126,7 +127,7 @@ Summary: Primer on non-linear programming methods
   
 
   Important theorems in NLP
-  -------------------------
+  =====
 
   ### 1. Weierstrass Theorem (Sufficient conditions for the existence of global optimum for a function)
 
@@ -152,11 +153,11 @@ Summary: Primer on non-linear programming methods
 
   Suppose $f : S\rightarrow \mathbb{R}$ has continuous second partial derivatives in $S$. Suppose the line segment $[x, y]$ joining $x$ and $y$ is contained in the interior of $S$. Then there exists $w \in [x, y]$ such that
 
-  $f(y) = f(x) + \nabla f(x)^T(y-x) + \frac{1}{2}(y-z)^TH_f(w)(y-x)$
+  $f(y) = f(x) + \nabla f(x)^T(y-x) + \frac{1}{2}(y-z)^T H(w)(y-x)$
 
   **Take note**: This is not to be confused for talyor expansion note this is an acutal equality not an inequality. 
 
-  It turns out if the hessian $H_f(w)$ is positive semi-definite for $x^*$ i.e. $\forall x \in \mathbb{R} \quad x^TH_f(w)x \geq 0$ then we see very clearly that $f(y) \geq f(x^*) + \nabla f(x^*)^T(y-x)$ and if $x^*$ is a stationary point (i.e. $\nabla f(x^*)^T(y-x)$)we immediately see that $\forall y\in \mathbb{R} f(y) \geq f(x^*)$
+  It turns out if the hessian $H(w)$ is positive semi-definite for $x^*$ i.e. $\forall x \in \mathbb{R} \quad x^TH(w)x \geq 0$ then we see very clearly that $f(y) \geq f(x^*) + \nabla f(x^*)^T(y-x)$ and if $x^*$ is a stationary point (i.e. $\nabla f(x^*)^T(y-x)$)we immediately see that $\forall y\in \mathbb{R} f(y) \geq f(x^*)$
 
   > For a point $x^*$ with a of a function with a positive semi-definite hessian and stationary point at $x^*$ it is a global optima. 
 
@@ -189,7 +190,7 @@ Summary: Primer on non-linear programming methods
   >  2. A is **negative definite** iff the principal minors alternatie between negative and positive.   
 
   Techniques to take note in this chapter
-  ---------------------------------------
+  ======
 
   - Formulating NLP problems
   - Graphical Solution of NLP problems
