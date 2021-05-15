@@ -9,7 +9,7 @@ tags:
 
 Summary: Primer on non-linear programming methods
 
-- # Non Linear Programming 
+# Non Linear Programming 
 
 > Disclaimer : This blog post is based of lecture notes from NUS on NLP, it is a good module so please consider taking it. I am using this blog to condense , link and elaborate on my own understanding of the topic. 
 
@@ -71,7 +71,8 @@ Summary: Primer on non-linear programming methods
 
     This shows the the optimisation of the quadratic form can be rewritten as an eigenvalue problem, which begs the next question how about the opposite direction are eigenvalue problems just optimisation problem in disguise ? 
 
-  ## A Simple Solving NLP problems (Graphical Solution)
+  A Simple Solving NLP problems (Graphical Solution)
+  --------------------------------------------------
 
   > minimise $f(x) = (x_1-4)^2 + (x^2 - 6)^2$
   >
@@ -105,7 +106,8 @@ Summary: Primer on non-linear programming methods
 
   
 
-  ## Not all fessible points are equal 
+  Not all fessible points are equal
+  ---------------------------------
 
   We previously discussed about optimal solutions, these are example of global minimizers sometimes it is very diffcult to find these global minimizers because the search space is too big and thus simple methods like finding the graphical solution doesn't work. Hence, we are interested in local minimizers. 
 
@@ -123,7 +125,8 @@ Summary: Primer on non-linear programming methods
 
   
 
-  ## Important theorems in NLP
+  Important theorems in NLP
+  -------------------------
 
   ### 1. Weierstrass Theorem (Sufficient conditions for the existence of global optimum for a function)
 
@@ -141,7 +144,7 @@ Summary: Primer on non-linear programming methods
 
   #### Closed Set
 
-  Let $S \subseteq \mathbb{R}^n$be a nonempty set. The set $S$ is said to be closed if for every convergent sequence $\{x_n\}^{\infty}_{n=1}$, with $x_n \in S$, the limit $\lim_{n \rightarrow \infty} x_n \in S$. 
+  Let $S \subseteq \mathbb{R}^n$be a nonempty set. The set $S$ is said to be closed if for every convergent sequence ${x_n}^{\infty}_{n=1}$, with $x_n \in S$, the limit $\lim_{n \rightarrow \infty} x_n \in S$. 
 
   Interestingly enough there is such a thing as the open set, and the complement of such an openset is a closed set. A nonempty subset of $S \subseteq \mathbb{R}^n$ such that for every $x\in S$ there eixsts $\epsilon >0 $ such that the open ball $B(x, \epsilon) \subseteq S$ i.e for every point in $S$ its neighboourd is must also be part of $S$. This automatically excludes boundary points of set $S$. Imagine a ball at the boundary one half will always be outside the set $S$. 
 
@@ -185,7 +188,8 @@ Summary: Primer on non-linear programming methods
   >
   >  2. A is **negative definite** iff the principal minors alternatie between negative and positive.   
 
-  ## Techniques to take note in this chapter 
+  Techniques to take note in this chapter
+  ---------------------------------------
 
   - Formulating NLP problems
   - Graphical Solution of NLP problems
