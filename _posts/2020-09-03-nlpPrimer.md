@@ -7,6 +7,8 @@ tags:
   - Math
 ---
 
+Summary: Primer on non-linear programming methods
+
 - # Non Linear Programming 
 
 > Disclaimer : This blog post is based of lecture notes from NUS on NLP, it is a good module so please consider taking it. I am using this blog to condense , link and elaborate on my own understanding of the topic. 
