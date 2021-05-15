@@ -7,7 +7,7 @@ tags:
   - Modelling
 ---
 
-=======================
+Summary: Motivates the n-interaction setup and how to model the problem.
 
 ## Table of contents
 
