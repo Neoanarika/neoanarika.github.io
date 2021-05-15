@@ -144,13 +144,13 @@ Summary: Primer on non-linear programming methods
 
   #### Closed Set
 
-  Let $S \subseteq \mathbb{R}^n$be a nonempty set. The set $S$ is said to be closed if for every convergent sequence ${x_n}^{\infty}_{n=1}$, with $x_n \in S$, the limit $\lim_{n \rightarrow \infty} x_n \in S$. 
+  Let $S \subseteq \mathbb{R}^n$ be a nonempty set. The set $S$ is said to be closed if for every convergent sequence ${x_n}^{\infty}_{n=1}$, with $x_n \in S$, the limit $\lim_{n \rightarrow \infty} x_n \in S$. 
 
   Interestingly enough there is such a thing as the open set, and the complement of such an openset is a closed set. A nonempty subset of $S \subseteq \mathbb{R}^n$ such that for every $x\in S$ there eixsts $\epsilon >0 $ such that the open ball $B(x, \epsilon) \subseteq S$ i.e for every point in $S$ its neighboourd is must also be part of $S$. This automatically excludes boundary points of set $S$. Imagine a ball at the boundary one half will always be outside the set $S$. 
 
   ### 2.  Talyor Theorem (Sufficient condition for a global optimum for a function)
 
-  Suppose $f : S\rightarrow \mathbb{R}$ has continuous second partial derivatives in $S$. Suppose the line segment $[x, y]$ joining $x$ and $y$ is contained in the interior of $S$. Then there exists $w ∈ [x, y]$ such that
+  Suppose $f : S\rightarrow \mathbb{R}$ has continuous second partial derivatives in $S$. Suppose the line segment $[x, y]$ joining $x$ and $y$ is contained in the interior of $S$. Then there exists $w \in [x, y]$ such that
 
   $f(y) = f(x) + \nabla f(x)^T(y-x) + \frac{1}{2}(y-z)^TH_f(w)(y-x)$
 
