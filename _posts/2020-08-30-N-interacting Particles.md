@@ -7,7 +7,6 @@ tags:
   - Modelling
 ---
 
-N-interacting Particles
 =======================
 
 ## Table of contents
