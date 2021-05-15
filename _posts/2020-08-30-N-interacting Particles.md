@@ -1,6 +1,6 @@
 ---
 title: 'N-interacting Particles'
-date: 2012-08-30
+date: 2020-08-30
 permalink: /posts/2020/08/interacting-particles/
 tags:
   - Physics
