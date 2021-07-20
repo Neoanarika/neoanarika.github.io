@@ -25,7 +25,7 @@ Hi there 👋
 # News
 
 * `Jun 2021` Was awarded dean list for academic performace for AY20/21 Sem 2
-* `Jun 2021` Joined Goggle Summer of Code (Tensorflow team)
+* `Jun 2021` Joined Google Summer of Code (Tensorflow team)
 * `Jan 2021` My first paper (Refining Deep Generative Models via Discriminator Gradient Flow) accepted into ICLR.
 * `Dec 2020` I begun a 1-year research programme as part of my mathematics UROPs at NUS on generative modelling.
 * `May 2020` I joined CLeAR as a undergraduate researcher. 
